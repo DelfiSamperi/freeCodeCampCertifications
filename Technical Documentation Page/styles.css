@@ -7,15 +7,15 @@
 
 html {
   color: var(--font-color);
-  background-color: var(--other-color);
+  background-color: var(--background-color);
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
 body {
   display: block;
-  font-size: 1.2em;
-   min-width: 290px;
+  /*font-size: 1.2em;*/
+  min-width: 290px;
 }
 
 #navbar{
@@ -31,16 +31,15 @@ body {
 }
 
 header{
-    color: var(--lines-color);
-    margin: 10px;
-    text-align: center;
-    font-size: 1.8em;
+  color: var(--lines-color);
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
 }
 
 #nav-ul {
   display: block;
   padding: 0;
- 
 }
 
 #nav-ul li {
@@ -80,15 +79,27 @@ header{
   display: block;
 }
 
+#grid_properties article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .main-section pre {
   background-color: var(--font-color);
   color: var(--background-color);
   padding: 0 10px;
+  max-width: 50vw;
+  max-height: auto;
+}
+
+.li-img {
+  max-width: 50vw;
+  max-height: auto;
 }
 
 h4 {
 color: var(--lines-color);
-
 }
 
 strong {
@@ -125,5 +136,9 @@ span, #link {
     position: relative;
     margin-left: 0px;
     margin-top: 280px;
+  }
+
+  #grid_properties article {
+    display: block;
   }
 }    
