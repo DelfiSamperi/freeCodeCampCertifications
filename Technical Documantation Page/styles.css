@@ -1,0 +1,129 @@
+:root {
+  --font-color: #e9e9eb ;
+  --lines-color: #ef4b4c;
+  --background-color: #434d5c;
+  --other-color: #051650;
+}
+
+html {
+  color: var(--font-color);
+  background-color: var(--other-color);
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  display: block;
+  font-size: 1.2em;
+   min-width: 290px;
+}
+
+#navbar{
+  display: block;
+  position: fixed;
+  min-width: 290px;
+  width: 300px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-right: solid;
+  border-color: var(--lines-color);
+}
+
+header{
+    color: var(--lines-color);
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#nav-ul {
+  display: block;
+  padding: 0;
+ 
+}
+
+#nav-ul li {
+  border-top: 1px solid var(--lines-color);
+  position: relative;
+  width: 100%;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px 30px;
+  color: var(--font-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: relative;
+  margin-left: 320px;
+  margin-right: 10px;
+  min-width: 300px;
+  padding: 20px;
+  overflow-x: hidden; 
+  
+}
+
+.main-section {
+  display: block;
+}
+
+.main-section header {
+  text-align: left;
+  margin-left: 0px;
+}
+
+.main-section article {
+  display: block;
+}
+
+.main-section pre {
+  background-color: var(--font-color);
+  color: var(--background-color);
+  padding: 0 10px;
+}
+
+h4 {
+color: var(--lines-color);
+
+}
+
+strong {
+  text-decoration: underline;
+}
+
+span, #link {
+  font-style: italic;
+  font-weight: 500;
+  color: var(--lines-color);
+  text-decoration: none;
+}
+
+    
+@media (max-width: 815px) {
+    #navbar{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    max-height: 250px;
+    border:none;
+  }
+
+  #nav-ul {
+    border: none;
+    border-bottom: 3px solid var(--lines-color);
+    height: 207px;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 280px;
+  }
+}    
