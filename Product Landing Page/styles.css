@@ -1,5 +1,4 @@
 :root {
-    --background-color: ;
     --color-1: #3c3d37;
     --color-2: #ecdfcc;
     --color-3: #090979;
@@ -32,6 +31,11 @@
     
   }
   
+  #header-img {
+    height: 90%;
+    width: auto;
+  }
+
   #nav-bar {
     display: flex;
     flex-direction: row;
@@ -116,9 +120,7 @@
   
   .product {
    margin: auto 15px;
-   /*max-width: 20vw;
-    width: 100%;*/
-    min-width: 25vw;
+   min-width: 25vw;
     max-height: 100vw;
   }
   
@@ -198,8 +200,8 @@
     .product {
         display: flex;
         flex-direction: column;
-        max-width: 300px;
-        width: 60vw;
+        max-width: 50vw;
+        width: 100%;
         margin-bottom: 10vw;
         overflow: hidden;
         box-sizing: border-box;
@@ -220,7 +222,7 @@
       width: 100%; 
       height: auto;
       border-radius: 5px;
-      aspect-ratio: 1/2;
+      /*aspect-ratio: 1/6;*/
       object-fit: fill;
     }
   
