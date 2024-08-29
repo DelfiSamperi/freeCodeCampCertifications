@@ -59,11 +59,10 @@ header{
 #main-doc {
   position: relative;
   margin-left: 320px;
-  margin-right: 10px;
+  margin-right: 100px;
   min-width: 300px;
   padding: 20px;
   overflow-x: hidden; 
-  
 }
 
 .main-section {

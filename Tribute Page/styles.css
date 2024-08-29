@@ -14,20 +14,24 @@
     font-style: italic;
   }
   
-  #img-div{
+  .img-div{
     background: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
   
-  #image{
-    max-width: 100%;
+  .image{
+    max-width: 70%;
     height: auto;
     display: block;
+    margin: 0 auto;
   }
   
-  #img-caption {
+  .img-caption {
     margin-bottom: 1em; 
     font-size: 0.8em;
   }
